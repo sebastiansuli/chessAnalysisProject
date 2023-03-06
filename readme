@@ -1,0 +1,9 @@
+Analysis of chess debuts and Jan Krzysztof Duda's debuts and games is based on the 'chess' library typical for chess analysis. The following libraries are also used: numpy, pandas, seaborn, matplotlib.pyplot, and pyarrow.
+
+To analyze the games, a file with the extension *.parqet was imported, describing 1,971,319 professional chess games. Among them are 1729 games played by Duda.
+
+After importing the data and libraries, characteristics will be presented for the entire dataset and then only for the Polish player. In the context of analysis, the openings that he played are of interest, depending on the years, or the number of wins/losses.
+
+An additional step is the analysis of PGN files of two games in which the Pole lost to players with the largest ELO difference compared to him. For this purpose, the chess.pgn library and the stockfish engine are used.
+
+A more detailed description of the steps will be inside the code.
