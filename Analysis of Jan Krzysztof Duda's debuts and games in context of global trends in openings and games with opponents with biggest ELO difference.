@@ -1,5 +1,3 @@
-Analysis of Jan Krzysztof Duda's debuts and games in context of global trends in openings and games with opponents with biggest ELO difference.
-
 Analysis of chess debuts and Jan Krzysztof Duda's debuts and games is based on the 'chess' library typical for chess analysis. The following libraries are also used: numpy, pandas, seaborn, matplotlib.pyplot, and pyarrow.
 
 To analyze the games, a file with the extension *.parqet was imported, describing 1,971,319 professional chess games. Among them are 1729 games played by Duda.
